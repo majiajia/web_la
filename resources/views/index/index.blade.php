@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-<meta name="applicabledevice"content="pc,mobile">
+    <meta name="applicabledevice" content="pc,mobile">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="sogou_site_verification" content="R0tez1ydiQ"/>
     <meta name="location" content="province=河南;city=郑州">
 	<meta name="description" content="河南法帮法律咨询服务有限公司是一家扎根于河南的法律咨询服务机构.为您处理包括交通事故、工伤、借贷和工程欠款等案件,咨询电话:0371-55681929.">
     <meta name="keywords" content="郑州交通事故,河南交通事故,交通事故律师">
@@ -21,7 +20,7 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<meta name="360-site-verification" content="7603b7cb3e0e784a29e17f8a659aaefe" />
+
     <link href="{{ url('css/style/index.css') }}" rel="stylesheet">
     <style>
     .news_category_not_selected {
@@ -171,7 +170,7 @@
     <div>
         <div style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin:0 auto;width:64%;height:32px;margin-top:20px;">
             <div style="display:flex;flex-direction:row;align-items:flex-end;border-bottom:none;border:none;height:24px;width:22%;">
-                <img class="lazy" data-original="Url::asset('imgs/index/service_items_line.png')" alt="河南交通事故,郑州交通事故" style="width:4px;height:24px;"></img>
+                
                 <span style="font-size:24px;font-weight:bold;color:#666666;padding-left:12px;line-height:24px;height:24px;">关于我们</span>
                 <span style="font-size:12px;color:#a0a0a0;padding-left:4px;line-height:12px;height:12px;">ABOUT US</span>
             </div>
@@ -180,7 +179,7 @@
     
         <div style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin:0 auto;width:64%;margin-top:30px;margin-bottom:30px;">
             <div>
-                <image src=" url('imgs/index/index_about_us.png')" style="width:448px;height:308px;"></image>
+                <image src="Url::asset('imgs/index/index_about_us.png')" style="width:448px;height:308px;"></image>
             </div>
             <div style="display:flex;flex-direction:column;margin-left:20px;justify-content:space-between;height:308px;">
                 <div>
@@ -209,7 +208,7 @@
     <div>
         <div style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin:0 auto;width:64%;;height:32px;">
             <div style="display:flex;flex-direction:row;align-items:flex-end;border-bottom:none;border:none;height:24px;width:22%;">
-<img class="lazy" data-original="Url::asset('imgs/index/service_items_line.png')" alt="河南交通事故,郑州交通事故" style="width:4px;height:24px;"></img>
+
                 <span style="font-size:24px;font-weight:bold;color:#666666;padding-left:12px;line-height:24px;height:24px;">专家团队</span>
                 <span style="font-size:12px;color:#a0a0a0;padding-left:4px;line-height:12px;height:12px;">EXPERT TEAM</span>
             </div>
@@ -223,7 +222,7 @@
             <foreach name="expert_list" item="expert_item">
                 <a href="__APP__/Expert/item?id={$expert_item.id}" style="display:flex;flex-direction:row;width:32%;background-color:#F0F0F0;text-decoration:none;">
                     <div>
-                        <img class="lazy" data-original="__PUBLIC__/{$expert_item.thumb_img}" style="width:140px;height:168px;" alt="交通事故 律师信息"></img>
+                        <img class="lazy" data-original="{$expert_item.thumb_img}" style="width:140px;height:168px;" alt="交通事故 律师信息"></img>
                     </div>
                     <div style="display:flex;flex-direction:column;margin-left:6px;margin-right:6px;margin-top:8px;width:100%;">
                         <div style="display: box;box-align: center;background-color:#116BBE;margin-top:22px;padding-left:12px;">
@@ -240,12 +239,10 @@
     
     
 
-    
+    <!-- 案例解读 -->
     <div id="success_cases">
         <div style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin:0 auto;width:64%;height:32px;">
-            <!-- 服务项目标题 -->
-            <div style="display:flex;flex-direction:row;align-items:flex-end;border-bottom:none;border:none;height:24px;width:22%;">
-                <img class="lazy" data-original="Url::asset('imgs/index/service_items_line.png')" style="width:4px;height:24px;"></img>
+            <div style="display:flex;flex-direction:row;align-items:flex-end;border-bottom:none;border:none;height:24px;width:22%;">                
                 <span style="font-size:24px;font-weight:bold;color:#666666;padding-left:12px;height:24px;line-height:24px;">案例解读</span>
                 <span style="font-size:12px;color:#a0a0a0;padding-left:4px;height:12px;line-height:12px;">SUCCESS CASES</span>
             </div>
