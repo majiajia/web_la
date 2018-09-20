@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','IndexController@index');
+Route::get('/case', 'CaseController@index');
+Route::get('/case/{id?}', 'CaseController@item');
+Route::get('/expert', 'ExpertController@index');
+Route::get('/expert/{id?}', 'ExpertController@item');
+Route::get('/contact', 'ContactController@index');
+Route::get('/about', 'AboutController@index');

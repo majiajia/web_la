@@ -1,0 +1,28 @@
+.first,.pre,.next,.last {
+    background-color: #F1F1F1;
+    border: 1px solid #ABABAB;
+} 
+
+.pagination-default {
+    margin-left: 20px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+ }
+
+ .pagination-default .pagination-item {
+    display: inline-block;
+    cursor: pointer;
+    line-height: normal;
+    text-decoration: none;
+    padding: 5px 9px;
+    font-size: 12px;
+    background: #fff;
+    color: #666;
+    /* border: 1px solid #e6e6e6; */
+}
+
+.pagination-default .pagination-current {
+    background: #fff;
+    color: #3e89fa;
+    /* border: 1px solid transparent; */
+}

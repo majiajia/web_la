@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/* .navBar {
+	width: 1200px;
+	margin: 0 auto;
+	height: 60px;
+	line-height: 60px;
+	color: #333;
+} */
+.nav {
+	position: relative;
+	width: 1110px;
+	margin: 0 auto;
+	/* font-family: "微软雅黑"; */
+	/* font-size: 14px; */
+}
+
+/* .nav h3 {
+	font-size: 100%;
+	font-weight: normal;
+} */
+/* .nav .m {
+	float: left;
+	position: relative;
+	z-index: 1;
+} */
+/* .nav h3 a {
+	display: block;
+	width: 138px;
+	text-align: center;
+	font-weight: bold;
+} */
+/* sub */
+.nav .block {
+	height: 3px;
+	width: 70px;
+	background: #0b5aa5;
+	position: absolute;
+	left: 34px;
+	top: 51px;
+	overflow: hidden;
+}
+.index_about{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+
+#nav {
+  line-height: 24px;  
+  list-style-type: none; 
+  /* background-color:#666; */
+}
+
+#nav li a {
+    /* color: #525F69; */
+}
+
+#nav a {
+ display: block; 
+ width: 80px; 
+ text-align:center;
+}
+
+
+
+#nav a:link  {
+    /* color:#666;  */
+    text-decoration:none;
+}
+#nav a:visited  {
+    /* color:#666; */
+    text-decoration:none;
+}
+#nav a:hover  {
+    /* color:#FFF; */
+    text-decoration:none;
+    /* font-weight:bold; */
+}
+
+#nav li {
+    float: left; 
+    width: 110px;
+    height:64px;; 
+    /* background:#CCC; */
+}
+
+#nav li a:hover {
+    /* border-bottom: 2px solid #085398; */
+    background-color:#116BBE;
+    color:white;
+}
+#nav li ul {
+    line-height: 27px;  
+    list-style-type: none;
+    text-align:left;
+    left: -999em; 
+    width: 110px; 
+    position: absolute;
+}
+#nav li ul li {
+    float: left; 
+    width: 110px;
+    height: 22px;
+    background: #116DBE;
+    color: #57A3E9;
+}
+
+#nav li ul a{
+    display: block; 
+    width: 110px;
+    /* _width: 180px; */
+    height:auto; 
+    margin:0 auto;
+    text-align:center; 
+    /* padding-left:15px; */
+    color: #57A3E9;
+}
+
+#nav li ul a:link  {
+    /* color:#666;  */
+    text-decoration:none;
+}
+#nav li ul a:visited  {
+    /* color:#666; */
+    text-decoration:none;
+}
+#nav li ul a:hover  {
+    /* color:#F3F3F3; */
+    text-decoration:none;
+    font-weight:normal;
+    /* background:#C00; */
+}
+
+#nav li:hover ul {
+ left: auto;
+}
+/* #nav li.sfhover ul {
+ left: auto;
+} */
+.sfhover {
+    background-color: #116BBE;
+    color:white;
+    /* border-bottom: 2px solid #085398; */
+}
+
+.sfhover a {
+    /* background-color: #116BBE; */
+    color:white;
+    /* border-bottom: 1px solid red; */
+}
+#service_items {
+    margin-top: 54px;
+}
+/* 去除页面上更多按钮的默认样式 */
+#service_items a {
+ display: block; 
+ width: 80px; 
+ text-align:center;
+}
+
+#service_items a:link  {
+    /* color:#666;  */
+    text-decoration:none;
+}
+#service_items a:visited  {
+    /* color:#666; */
+    text-decoration:none;
+}
+#service_items a:hover  {
+    /* color:#FFF; */
+    text-decoration:none;
+    /* font-weight:bold; */
+}
+.index_banner_main {
+    height:64px;
+    line-height:64px;
+    width:100%;
+    vertical-align:middle;
+    /* font-size:16px; */
+    /* color:#525f69; */
+}
+
+.menu_1st {
+    color:#FFFFFF;
+}
+
+.more {
+    color:#116bbe;
+}
+.more:hover {
+    color:white;
+    background-color:#116bbe
+}
+
+.iconglobal
+{
+ display:block;
+ background:url(iconglobal.png)  no-repeat;
+}
+.iconglobal-address{
+ width:24px;
+ height:24px;
+ background-position:0px 0px;
+}
+.iconglobal-email{
+ width:24px;
+ height:24px;
+ background-position:-25px 0px;
+}
+.iconglobal-fax{
+ width:24px;
+ height:24px;
+ background-position:-50px 0px;
+}
+.iconglobal-phone{
+ width:24px;
+ height:24px;
+ background-position:-75px 0px;
+}
+.iconglobal-post_code{
+ width:24px;
+ height:24px;
+ background-position:-100px 0px;
+}
+.iconglobal-website{
+ width:24px;
+ height:24px;
+ background-position:-125px 0px;
+}

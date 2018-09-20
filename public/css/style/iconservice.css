@@ -1,0 +1,56 @@
+/* made by  雪碧图制作专家v1.0 */
+.iconservice
+{
+ display:block;
+ background:url(./iconservice.png)  no-repeat;
+}
+.iconservice-index_service_falv_fuzhu{
+ width:72px;
+ height:72px;
+ background-position:0px 0px;
+}
+.iconservice-index_service_falv_fuzhu_selected{
+ width:70px;
+ height:73px;
+ background-position:-73px 0px;
+}
+.iconservice-index_service_falv_zixun{
+ width:75px;
+ height:71px;
+ background-position:-144px 0px;
+}
+.iconservice-index_service_falv_zixun_selected{
+ width:71px;
+ height:72px;
+ background-position:-220px 0px;
+}
+.iconservice-index_service_qinzi_jianding{
+ width:73px;
+ height:72px;
+ background-position:-292px 0px;
+}
+.iconservice-index_service_qinzi_jianding_selected{
+ width:73px;
+ height:72px;
+ background-position:-366px 0px;
+}
+.iconservice-index_service_sifa_jianding{
+ width:71px;
+ height:72px;
+ background-position:-440px 0px;
+}
+.iconservice-index_service_sifa_jianding_selected{
+ width:71px;
+ height:72px;
+ background-position:-512px 0px;
+}
+.iconservice-index_service_zhuanjia_fuzhu{
+ width:72px;
+ height:71px;
+ background-position:-584px 0px;
+}
+.iconservice-index_service_zhuanjia_fuzhu_selected{
+ width:72px;
+ height:72px;
+ background-position:-657px 0px;
+}
