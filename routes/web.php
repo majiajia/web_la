@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/','IndexController@index');
-Route::get('/case', 'CaseController@index');
-Route::get('/case/{id?}', 'CaseController@item');
-Route::get('/expert', 'ExpertController@index');
-Route::get('/expert/{id?}', 'ExpertController@item');
-Route::get('/contact', 'ContactController@index');
-Route::get('/about', 'AboutController@index');
+Route::get('/','IndexController@index')->name('index');
+Route::get('/case', 'CaseController@index')->name('case');
+Route::get('/case/{id?}', 'CaseController@item')->name('case_item');
+Route::get('/expert', 'ExpertController@index')->name('expert');
+Route::get('/expert/{id?}', 'ExpertController@item')->name('expert_item');;
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::get('/about', 'AboutController@index')->name('about');
